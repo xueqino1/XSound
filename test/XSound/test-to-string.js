@@ -1,9 +1,9 @@
-describe('Class (Static) Method TEST', function() {
+describe('XSound TEST', function() {
 
-    describe('XSound.toString()', function() {
+    describe('XSound.prototype.toString', function() {
 
         it('should return "[XSound]"', function() {
-            expect(X.toString()).toEqual('[XSound]');
+            expect(X.prototype.toString()).toEqual('[XSound]');
         });
 
     });
